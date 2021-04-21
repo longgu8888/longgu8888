@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<repository name='D:\CCC\pleiades\eclipse\dropins\PropertiesEditor' type='org.eclipse.equinox.p2.artifact.repository.simpleRepository' version='1.0.0'>
+  <properties size='1'>
+    <property name='p2.timestamp' value='1443418594375'/>
+  </properties>
+  <mappings size='3'>
+    <rule filter='(&amp; (classifier=osgi.bundle))' output='${repoUrl}/plugins/${id}_${version}.jar'/>
+    <rule filter='(&amp; (classifier=binary))' output='${repoUrl}/binary/${id}_${version}'/>
+    <rule filter='(&amp; (classifier=org.eclipse.update.feature))' output='${repoUrl}/features/${id}_${version}.jar'/>
+  </mappings>
+  <artifacts size='6'>
+    <artifact classifier='osgi.bundle' id='jp.gr.java_conf.ussiy.app.propedit.nl' version='6.0.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='13379'/>
+        <property name='download.size' value='13379'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/D:/CCC/pleiades/eclipse/dropins/PropertiesEditor/eclipse/plugins/jp.gr.java_conf.ussiy.app.propedit.nl_6.0.0.jar'/>
+        <property name='file.name' value='D:\CCC\pleiades\eclipse\dropins\PropertiesEditor\eclipse\plugins\jp.gr.java_conf.ussiy.app.propedit.nl_6.0.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='jp.gr.java_conf.ussiy.app.propedit.hyperlink' version='2.0.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='12149'/>
+        <property name='download.size' value='12149'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/D:/CCC/pleiades/eclipse/dropins/PropertiesEditor/eclipse/plugins/jp.gr.java_conf.ussiy.app.propedit.hyperlink_2.0.0.jar'/>
+        <property name='file.name' value='D:\CCC\pleiades\eclipse\dropins\PropertiesEditor\eclipse\plugins\jp.gr.java_conf.ussiy.app.propedit.hyperlink_2.0.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='jp.gr.java_conf.ussiy.app.propedit' version='6.0.4'>
+      <properties size='2'>
+        <property name='artifact.size' value='224958'/>
+        <property name='download.size' value='224958'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/D:/CCC/pleiades/eclipse/dropins/PropertiesEditor/eclipse/plugins/jp.gr.java_conf.ussiy.app.propedit_6.0.4.jar'/>
+        <property name='file.name' value='D:\CCC\pleiades\eclipse\dropins\PropertiesEditor\eclipse\plugins\jp.gr.java_conf.ussiy.app.propedit_6.0.4.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='jp.gr.java_conf.ussiy.app.propedit' version='6.0.4'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/D:/CCC/pleiades/eclipse/dropins/PropertiesEditor/eclipse/features/jp.gr.java_conf.ussiy.app.propedit_6.0.4/'/>
+        <property name='file.name' value='D:\CCC\pleiades\eclipse\dropins\PropertiesEditor\eclipse\features\jp.gr.java_conf.ussiy.app.propedit_6.0.4'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='jp.gr.java_conf.ussiy.app.propedit.nl' version='6.0.0'>
+      <properties size='3'>
+        <property name='artifact.size' value='0'/>
+        <property name='download.size' value='0'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/D:/CCC/pleiades/eclipse/dropins/PropertiesEditor/eclipse/features/jp.gr.java_conf.ussiy.app.propedit.nl_6.0.0/'/>
+        <property name='file.name' value='D:\CCC\pleiades\eclipse\dropins\PropertiesEditor\eclipse\features\jp.gr.java_conf.ussiy.app.propedit.nl_6.0.0'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='jp.gr.java_conf.ussiy.app.propedit.hyperlink' version='2.0.0'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/D:/CCC/pleiades/eclipse/dropins/PropertiesEditor/eclipse/features/jp.gr.java_conf.ussiy.app.propedit.hyperlink_2.0.0/'/>
+        <property name='file.name' value='D:\CCC\pleiades\eclipse\dropins\PropertiesEditor\eclipse\features\jp.gr.java_conf.ussiy.app.propedit.hyperlink_2.0.0'/>
+      </repositoryProperties>
+    </artifact>
+  </artifacts>
+</repository>

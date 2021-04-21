@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<repository name='D:\CCC\pleiades\eclipse\dropins\EclipseColorTheme' type='org.eclipse.equinox.p2.artifact.repository.simpleRepository' version='1.0.0'>
+  <properties size='1'>
+    <property name='p2.timestamp' value='1443418593712'/>
+  </properties>
+  <mappings size='3'>
+    <rule filter='(&amp; (classifier=osgi.bundle))' output='${repoUrl}/plugins/${id}_${version}.jar'/>
+    <rule filter='(&amp; (classifier=binary))' output='${repoUrl}/binary/${id}_${version}'/>
+    <rule filter='(&amp; (classifier=org.eclipse.update.feature))' output='${repoUrl}/features/${id}_${version}.jar'/>
+  </mappings>
+  <artifacts size='2'>
+    <artifact classifier='org.eclipse.update.feature' id='com.github.eclipsecolortheme.feature' version='0.13.0.201311210852'>
+      <properties size='3'>
+        <property name='artifact.size' value='0'/>
+        <property name='download.size' value='0'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/D:/CCC/pleiades/eclipse/dropins/EclipseColorTheme/eclipse/features/com.github.eclipsecolortheme.feature_0.13.0.201311210852/'/>
+        <property name='file.name' value='D:\CCC\pleiades\eclipse\dropins\EclipseColorTheme\eclipse\features\com.github.eclipsecolortheme.feature_0.13.0.201311210852'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.github.eclipsecolortheme' version='0.13.0.201311210852'>
+      <properties size='2'>
+        <property name='artifact.size' value='98607'/>
+        <property name='download.size' value='98607'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/D:/CCC/pleiades/eclipse/dropins/EclipseColorTheme/eclipse/plugins/com.github.eclipsecolortheme_0.13.0.201311210852.jar'/>
+        <property name='file.name' value='D:\CCC\pleiades\eclipse\dropins\EclipseColorTheme\eclipse\plugins\com.github.eclipsecolortheme_0.13.0.201311210852.jar'/>
+      </repositoryProperties>
+    </artifact>
+  </artifacts>
+</repository>

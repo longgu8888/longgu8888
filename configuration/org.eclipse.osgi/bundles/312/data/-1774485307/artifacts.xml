@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<repository name='E:\eclipse\dropins\Limy' type='org.eclipse.equinox.p2.artifact.repository.simpleRepository' version='1.0.0'>
+  <properties size='1'>
+    <property name='p2.timestamp' value='1459906971221'/>
+  </properties>
+  <mappings size='3'>
+    <rule filter='(&amp; (classifier=osgi.bundle))' output='${repoUrl}/plugins/${id}_${version}.jar'/>
+    <rule filter='(&amp; (classifier=binary))' output='${repoUrl}/binary/${id}_${version}'/>
+    <rule filter='(&amp; (classifier=org.eclipse.update.feature))' output='${repoUrl}/features/${id}_${version}.jar'/>
+  </mappings>
+  <artifacts size='2'>
+    <artifact classifier='osgi.bundle' id='org.limy.eclipse.core' version='1.5.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='812758'/>
+        <property name='download.size' value='812758'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/E:/eclipse/dropins/Limy/eclipse/plugins/org.limy.eclipse.core_1.5.0.jar'/>
+        <property name='file.name' value='E:\eclipse\dropins\Limy\eclipse\plugins\org.limy.eclipse.core_1.5.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.limy.eclipse.code' version='1.4.4'>
+      <properties size='2'>
+        <property name='artifact.size' value='155616'/>
+        <property name='download.size' value='155616'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/E:/eclipse/dropins/Limy/eclipse/plugins/org.limy.eclipse.code_1.4.4.jar'/>
+        <property name='file.name' value='E:\eclipse\dropins\Limy\eclipse\plugins\org.limy.eclipse.code_1.4.4.jar'/>
+      </repositoryProperties>
+    </artifact>
+  </artifacts>
+</repository>

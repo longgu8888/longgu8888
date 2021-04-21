@@ -1,0 +1,26 @@
+INFO  13:57:59.639 [main] (Pleiades) Pleiades 構成保管パス: \\172.17.1.8\05  share\ツール\eclipse\configuration\jp.sourceforge.mergedoc.pleiades
+INFO  13:58:00.378 [main] (PleiadesConfig) Pleiades 構成ファイルをロードしました。
+INFO  13:58:00.384 [main] (Pleiades) Eclipse AOP 起動トランスフォーマーを開始します。Pleiades 起動オプション:null
+INFO  13:58:00.648 [pool-1-thread-5] (PropertySet) load  0.259 秒 -      5 エントリー org.eclipse.ui.ide.prefs
+INFO  13:58:00.662 [pool-1-thread-2] (PropertySet) load  0.020 秒 -     66 エントリー translation-exclude-package.properties
+INFO  13:58:00.668 [pool-1-thread-3] (PropertySet) load  0.025 秒 -    349 エントリー translation-regex.properties
+INFO  13:58:00.852 [pool-1-thread-3] (PropertySet) load  0.013 秒 -     16 エントリー translation-regex-through.properties
+INFO  13:58:01.135 [main] (LauncherEclipseTransformer) transform: org.eclipse.equinox.launcher.Main
+INFO  13:58:07.404 [main] (LauncherTransformer) アプリケーションの起動を開始しました。-clean:false
+INFO  13:58:07.406 [main] (LauncherTransformer) Pleiades AOP 起動トランスフォーマーを停止します。
+INFO  13:58:07.511 [main] (LauncherTransformer) Pleiades AOP 翻訳トランスフォーマーを開始します。
+INFO  13:58:08.471 [pool-1-thread-3] (ExcludeClassNameCache) load   32588 エントリー exclude-class.list
+INFO  13:58:10.852 [pool-1-thread-3] (TransformedClassCache) load     1410 エントリー transformed-class.cache
+INFO  13:58:12.231 [pool-1-thread-3] (ValueHashPropertySet) load  1.024 秒 -  67454 エントリー translation-cache.properties.zip
+INFO  13:58:12.299 [pool-1-thread-3] (CachePropertySet) load  0.064 秒 -   4087 エントリー mnemonic-cache.properties.zip
+INFO  13:58:12.761 [pool-2-thread-1] (EclipseFiles) 前回のプラグイン更新最終時刻: 2016-04-06 09:34:24
+INFO  13:58:12.762 [pool-2-thread-1] (EclipseFiles) 今回のプラグイン更新最終時刻: 2019-05-31 17:58:22
+INFO  13:58:12.799 [pool-2-thread-1] (LauncherEclipseTransformer) Eclipse プラグインの更新が検出されたため、強制的に -clean モードで起動します。
+INFO  13:58:36.479 [Start Level Event Dispatcher] (AbstractTranslationDictionary$1) load  2.992 秒 - 116169 エントリー translation.properties
+INFO  13:58:36.502 [Start Level Event Dispatcher] (AbstractTranslationDictionary$1) load  0.019 秒 - 116276 エントリー translation-multibytes-key.properties
+INFO  13:59:37.192 [main] (Analyses) Eclipse 始動完了 - 始動時間: 85.991 秒。-clean:true
+INFO  13:59:51.797 [pleiades-shutdown] (PropertySet) load  0.595 秒 -  67454 エントリー translation-cache.properties.zip
+INFO  13:59:52.641 [pleiades-shutdown] (ValueHashPropertySet) store 0.843 秒 -  69294 エントリー translation-cache.properties.zip
+INFO  13:59:52.648 [pleiades-shutdown] (CachePropertySet) 翻訳キャッシュ・プロパティーを更新しました。
+INFO  13:59:52.710 [pleiades-shutdown] (PropertySet) load  0.059 秒 -   4087 エントリー mnemonic-cache.properties.zip
+INFO  13:59:52.712 [pleiades-shutdown] (CachePropertySet) ニーモニック変換キャッシュ・プロパティーの更新はありません。

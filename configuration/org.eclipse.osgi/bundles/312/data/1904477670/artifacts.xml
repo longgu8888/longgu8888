@@ -1,0 +1,208 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<repository name='E:\eclipse\dropins\Subversive' type='org.eclipse.equinox.p2.artifact.repository.simpleRepository' version='1.0.0'>
+  <properties size='1'>
+    <property name='p2.timestamp' value='1459906971951'/>
+  </properties>
+  <mappings size='3'>
+    <rule filter='(&amp; (classifier=osgi.bundle))' output='${repoUrl}/plugins/${id}_${version}.jar'/>
+    <rule filter='(&amp; (classifier=binary))' output='${repoUrl}/binary/${id}_${version}'/>
+    <rule filter='(&amp; (classifier=org.eclipse.update.feature))' output='${repoUrl}/features/${id}_${version}.jar'/>
+  </mappings>
+  <artifacts size='18'>
+    <artifact classifier='osgi.bundle' id='org.eclipse.team.svn.help' version='2.0.0.I20131101-1700'>
+      <properties size='2'>
+        <property name='artifact.size' value='2907741'/>
+        <property name='download.size' value='2907741'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/E:/eclipse/dropins/Subversive/eclipse/plugins/org.eclipse.team.svn.help_2.0.0.I20131101-1700.jar'/>
+        <property name='file.name' value='E:\eclipse\dropins\Subversive\eclipse\plugins\org.eclipse.team.svn.help_2.0.0.I20131101-1700.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.team.svn.ui.startup' version='2.0.0.I20131101-1700'>
+      <properties size='2'>
+        <property name='artifact.size' value='13967'/>
+        <property name='download.size' value='13967'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/E:/eclipse/dropins/Subversive/eclipse/plugins/org.eclipse.team.svn.ui.startup_2.0.0.I20131101-1700.jar'/>
+        <property name='file.name' value='E:\eclipse\dropins\Subversive\eclipse\plugins\org.eclipse.team.svn.ui.startup_2.0.0.I20131101-1700.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.polarion.eclipse.team.svn.connector.svnkit18' version='4.0.1.I20140122-1700'>
+      <properties size='2'>
+        <property name='artifact.size' value='6002826'/>
+        <property name='download.size' value='6002826'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/E:/eclipse/dropins/Subversive/eclipse/plugins/org.polarion.eclipse.team.svn.connector.svnkit18_4.0.1.I20140122-1700.jar'/>
+        <property name='file.name' value='E:\eclipse\dropins\Subversive\eclipse\plugins\org.polarion.eclipse.team.svn.connector.svnkit18_4.0.1.I20140122-1700.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.team.svn.mylyn' version='2.0.0.I20131101-1700'>
+      <properties size='2'>
+        <property name='artifact.size' value='35143'/>
+        <property name='download.size' value='35143'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/E:/eclipse/dropins/Subversive/eclipse/plugins/org.eclipse.team.svn.mylyn_2.0.0.I20131101-1700.jar'/>
+        <property name='file.name' value='E:\eclipse\dropins\Subversive\eclipse\plugins\org.eclipse.team.svn.mylyn_2.0.0.I20131101-1700.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.polarion.eclipse.team.svn.connector' version='4.0.0.I20131101-1700'>
+      <properties size='2'>
+        <property name='artifact.size' value='4238'/>
+        <property name='download.size' value='4238'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/E:/eclipse/dropins/Subversive/eclipse/plugins/org.polarion.eclipse.team.svn.connector_4.0.0.I20131101-1700.jar'/>
+        <property name='file.name' value='E:\eclipse\dropins\Subversive\eclipse\plugins\org.polarion.eclipse.team.svn.connector_4.0.0.I20131101-1700.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.team.svn.revision.graph' version='2.0.0.I20131101-1700'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/E:/eclipse/dropins/Subversive/eclipse/features/org.eclipse.team.svn.revision.graph_2.0.0.I20131101-1700/'/>
+        <property name='file.name' value='E:\eclipse\dropins\Subversive\eclipse\features\org.eclipse.team.svn.revision.graph_2.0.0.I20131101-1700'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.team.svn.core' version='2.0.0.I20131101-1700'>
+      <properties size='2'>
+        <property name='artifact.size' value='1008629'/>
+        <property name='download.size' value='1008629'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/E:/eclipse/dropins/Subversive/eclipse/plugins/org.eclipse.team.svn.core_2.0.0.I20131101-1700.jar'/>
+        <property name='file.name' value='E:\eclipse\dropins\Subversive\eclipse\plugins\org.eclipse.team.svn.core_2.0.0.I20131101-1700.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.polarion.eclipse.team.svn.connector.svnkit16' version='4.0.1.I20140122-1700'>
+      <properties size='2'>
+        <property name='artifact.size' value='4057433'/>
+        <property name='download.size' value='4057433'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/E:/eclipse/dropins/Subversive/eclipse/plugins/org.polarion.eclipse.team.svn.connector.svnkit16_4.0.1.I20140122-1700.jar'/>
+        <property name='file.name' value='E:\eclipse\dropins\Subversive\eclipse\plugins\org.polarion.eclipse.team.svn.connector.svnkit16_4.0.1.I20140122-1700.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.polarion.eclipse.team.svn.connector' version='4.0.1.I20140122-1700'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/E:/eclipse/dropins/Subversive/eclipse/features/org.polarion.eclipse.team.svn.connector_4.0.1.I20140122-1700/'/>
+        <property name='file.name' value='E:\eclipse\dropins\Subversive\eclipse\features\org.polarion.eclipse.team.svn.connector_4.0.1.I20140122-1700'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.team.svn' version='2.0.0.I20131101-1700'>
+      <properties size='2'>
+        <property name='artifact.size' value='19278'/>
+        <property name='download.size' value='19278'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/E:/eclipse/dropins/Subversive/eclipse/plugins/org.eclipse.team.svn_2.0.0.I20131101-1700.jar'/>
+        <property name='file.name' value='E:\eclipse\dropins\Subversive\eclipse\plugins\org.eclipse.team.svn_2.0.0.I20131101-1700.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.polarion.eclipse.team.svn.connector.svnkit16' version='4.0.1.I20140122-1700'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/E:/eclipse/dropins/Subversive/eclipse/features/org.polarion.eclipse.team.svn.connector.svnkit16_4.0.1.I20140122-1700/'/>
+        <property name='file.name' value='E:\eclipse\dropins\Subversive\eclipse\features\org.polarion.eclipse.team.svn.connector.svnkit16_4.0.1.I20140122-1700'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.polarion.eclipse.team.svn.connector.svnkit17' version='4.0.1.I20140122-1700'>
+      <properties size='2'>
+        <property name='artifact.size' value='5870195'/>
+        <property name='download.size' value='5870195'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/E:/eclipse/dropins/Subversive/eclipse/plugins/org.polarion.eclipse.team.svn.connector.svnkit17_4.0.1.I20140122-1700.jar'/>
+        <property name='file.name' value='E:\eclipse\dropins\Subversive\eclipse\plugins\org.polarion.eclipse.team.svn.connector.svnkit17_4.0.1.I20140122-1700.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.team.svn.mylyn' version='2.0.0.I20131101-1700'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/E:/eclipse/dropins/Subversive/eclipse/features/org.eclipse.team.svn.mylyn_2.0.0.I20131101-1700/'/>
+        <property name='file.name' value='E:\eclipse\dropins\Subversive\eclipse\features\org.eclipse.team.svn.mylyn_2.0.0.I20131101-1700'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.polarion.eclipse.team.svn.connector.svnkit17' version='4.0.1.I20140122-1700'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/E:/eclipse/dropins/Subversive/eclipse/features/org.polarion.eclipse.team.svn.connector.svnkit17_4.0.1.I20140122-1700/'/>
+        <property name='file.name' value='E:\eclipse\dropins\Subversive\eclipse\features\org.polarion.eclipse.team.svn.connector.svnkit17_4.0.1.I20140122-1700'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.team.svn' version='2.0.0.I20131101-1700'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/E:/eclipse/dropins/Subversive/eclipse/features/org.eclipse.team.svn_2.0.0.I20131101-1700/'/>
+        <property name='file.name' value='E:\eclipse\dropins\Subversive\eclipse\features\org.eclipse.team.svn_2.0.0.I20131101-1700'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.team.svn.revision.graph' version='2.0.0.I20131101-1700'>
+      <properties size='2'>
+        <property name='artifact.size' value='383920'/>
+        <property name='download.size' value='383920'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/E:/eclipse/dropins/Subversive/eclipse/plugins/org.eclipse.team.svn.revision.graph_2.0.0.I20131101-1700.jar'/>
+        <property name='file.name' value='E:\eclipse\dropins\Subversive\eclipse\plugins\org.eclipse.team.svn.revision.graph_2.0.0.I20131101-1700.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.polarion.eclipse.team.svn.connector.svnkit18' version='4.0.1.I20140122-1700'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/E:/eclipse/dropins/Subversive/eclipse/features/org.polarion.eclipse.team.svn.connector.svnkit18_4.0.1.I20140122-1700/'/>
+        <property name='file.name' value='E:\eclipse\dropins\Subversive\eclipse\features\org.polarion.eclipse.team.svn.connector.svnkit18_4.0.1.I20140122-1700'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.team.svn.ui' version='2.0.0.I20131101-1700'>
+      <properties size='2'>
+        <property name='artifact.size' value='2535532'/>
+        <property name='download.size' value='2535532'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/E:/eclipse/dropins/Subversive/eclipse/plugins/org.eclipse.team.svn.ui_2.0.0.I20131101-1700.jar'/>
+        <property name='file.name' value='E:\eclipse\dropins\Subversive\eclipse\plugins\org.eclipse.team.svn.ui_2.0.0.I20131101-1700.jar'/>
+      </repositoryProperties>
+    </artifact>
+  </artifacts>
+</repository>
